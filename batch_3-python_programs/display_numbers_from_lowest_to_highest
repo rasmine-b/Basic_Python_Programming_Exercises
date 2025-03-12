@@ -10,3 +10,8 @@ while True:
         break #end the loop if the input is invalid
     
 #display numbers from lowest to highest
+if num_list:
+    num_list.sort()
+    print(f"The numbers from lowest to highest are {num_list}")
+else:
+    print("Error. Enter a valid number.")
