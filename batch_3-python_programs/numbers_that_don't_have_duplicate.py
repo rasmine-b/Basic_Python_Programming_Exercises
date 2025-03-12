@@ -7,5 +7,6 @@ for i in range (1,11):
     duplicate_num_list.append(num)
     
 #Find numbers that don't have duplicate
+duplicate_numbers = [num for num in duplicate_num_list if duplicate_num_list.count(num) == 1]
 
 #Display numbers that don't have duplicate
