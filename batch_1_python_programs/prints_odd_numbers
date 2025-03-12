@@ -5,6 +5,9 @@ odd_num_list = []
 while True:
     try:
         for i in range (1,11):
-            
+
 #take 10 numbers as input
+        num = float(input("Enter a number {i}: "))
+        odd_num_list.append(num)
+        
 #If the number is odd, increment odd_count by 1
