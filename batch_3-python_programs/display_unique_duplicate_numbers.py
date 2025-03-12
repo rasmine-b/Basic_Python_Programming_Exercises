@@ -7,4 +7,11 @@ for i in range (1,11):
     num_list.append(num)
 
 #display first occurence and duplicate numbers
+duplicate_numbers = set()
+unique_numbers = []
+for num in num_list:
+    if num not in duplicate_numbers:
+        unique_numbers.append(num)
+        duplicate_numbers.add(num)
+        
 #display all numbers
