@@ -10,3 +10,8 @@ while True:
         break #end the loop if the input is invalid
 
 #display the number with the most number of duplicate
+if num_list:
+    frequent_number = max(set(num_list), key=num_list.count)
+    print(f"The most number of duplicate {frequent_number}")
+else:
+    print("Error. Enter a valid number.")
