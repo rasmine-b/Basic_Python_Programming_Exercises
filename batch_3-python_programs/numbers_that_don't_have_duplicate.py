@@ -3,10 +3,11 @@
 #Ask user to input 10 numbers
 duplicate_num_list = []
 for i in range (1,11):
-    num = float(input("Enter a number {i}: "))
+    num = float(input(f"Enter a number {i}: "))
     duplicate_num_list.append(num)
     
 #Find numbers that don't have duplicate
 duplicate_numbers = [num for num in duplicate_num_list if duplicate_num_list.count(num) == 1]
 
 #Display numbers that don't have duplicate
+print(f"The numbers that don't duplicate are {duplicate_numbers}:.0f")
