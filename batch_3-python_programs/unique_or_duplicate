@@ -12,5 +12,6 @@ while True:
         num_list.append(num)
     except ValueError:
         break #end the loop if the input is invalid
-        
+
 #display all entered numbers 
+print(f"All the numbers are {num_list}")
