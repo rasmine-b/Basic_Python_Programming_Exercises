@@ -10,3 +10,7 @@ for i in range (1,11):
 duplicates = list(set(num for num in num_list if num_list.count(num) > 1))
 
 #Display numbers that have duplicate
+if duplicates:
+    print(f"The numbers that have duplicates are {duplicates}")
+else:
+    print("Error. Enter a valid number.")
