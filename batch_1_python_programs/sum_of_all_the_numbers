@@ -11,3 +11,8 @@ while True:
             num_list.append(num)
 
 #Add the number to sum 
+        num_sum = sum(num_list)
+        print(f"The sum of all the numbers is {num_sum:.0f}")
+        break
+    except ValueError:
+        print("Error. Enter a valid number.")
