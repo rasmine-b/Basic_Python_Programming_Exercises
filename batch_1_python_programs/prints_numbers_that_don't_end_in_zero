@@ -2,6 +2,7 @@
 
 #Set a loop from 1 to 100
 #If the number does not end in 0, append to num_list
+
 non_zero_num_list = []
 for i in range (1,101):
     if i % 10 != 0:
