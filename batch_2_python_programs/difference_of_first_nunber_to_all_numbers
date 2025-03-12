@@ -1,0 +1,5 @@
+#Create a program that ask user to input 10 numbers. Print the result of the first number minus all remaining numbers.
+
+#set a loop to repeat 10 times
+#take 10 numbers as input
+#subtract the remaining numbers to the first number
