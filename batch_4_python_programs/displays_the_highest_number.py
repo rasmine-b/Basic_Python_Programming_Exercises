@@ -8,5 +8,10 @@ while True:
         num_list.append(num)
     except ValueError:
         break #end the loop if the input is invalid
-    
+
 #display the highest number
+if num_list:
+    print(f"The highest number is {max(num_list)}")
+else:
+    print("Error. Enter a valid number.")
+
