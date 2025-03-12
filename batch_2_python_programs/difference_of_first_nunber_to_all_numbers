@@ -11,3 +11,10 @@ while True:
             num_list.append(num)
 
 #subtract the remaining numbers to the first number
+        result = num_list [0]
+        for num in num_list [1: ]:
+            result -= num
+        print(f"The difference of the first number minus to all remaining numbers is {result}")
+        break
+    except ValueError:
+        print("Error. Enter a valid number.")
