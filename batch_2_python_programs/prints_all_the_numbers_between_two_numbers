@@ -1,0 +1,4 @@
+#Create a program that ask user to input 2 numbers. Print all the numbers between the two numbers.
+
+#take two numbers as input
+#set a loop from the range
