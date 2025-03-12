@@ -8,5 +8,10 @@ while True:
         num_list.append(num)
     except ValueError:
         break #end the loop if the input is invalid
-#display the average
 
+#display the average
+if num_list:
+    average = sum(num_list) / len(num_list)
+    print(f"The average is {average}")
+else:
+    print("Error. Enter a valid number.")
