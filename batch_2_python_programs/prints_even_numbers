@@ -1,0 +1,5 @@
+#Create a program that ask user to input 10 numbers. Print how many even numbers.
+
+#set a loop to repeat 10 times
+#take 10 numbers as input 
+#If the number is even, increment even_count by 1
